@@ -10,6 +10,7 @@ var obstaclesGroup, obstacle1, obstacle2, obstacle3, obstacle4, obstacle5, obsta
 
 var score=0;
 
+
 var gameOver, restart;
 
 localStorage["HighestScore"] = 0;
@@ -70,7 +71,7 @@ function setup() {
 
 function draw() {
   //trex.debug = true;
-  background(255);
+  background(0);
   text("Score: "+ score, 500,50);
   
   if (gameState===PLAY){
